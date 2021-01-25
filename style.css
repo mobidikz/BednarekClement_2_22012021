@@ -1,0 +1,97 @@
+/*Polices de la page*/
+
+
+
+/*Eléments principaux de la page*/
+
+body
+{
+    background-color: white;
+    color:black;
+    font-family: Raleway;
+}
+
+h2
+{
+    size: 1em;
+    font-weight: bold;
+}
+
+h3
+{
+    size: 0.8em;
+    font-weight: bold;
+}
+
+#bloc_page
+{
+margin-left: 3%;
+margin-right: 3%;
+}
+
+
+ul
+{
+   list-style-type: none;
+}
+
+#menu
+{
+  display: flex;
+  
+}
+
+#logo
+{
+    width: 100px;
+	height: auto;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    max-height : 45px;
+}
+
+
+/* Navigation*/
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+/* Footer*/
+
+footer
+{
+    display: flex;
+    padding-top: 25px;
+    background-color: #F2F2F2;
+}
+
+
+
+
+#A_propos
+{
+    margin-left: 3%;
+    width: 33%;
+}
+
+#Nos_hébergements
+{
+    width: 33%;
+}
+
+#Assistance
+{
+    width: 33%;
+}
