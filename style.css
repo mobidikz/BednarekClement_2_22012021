@@ -213,9 +213,23 @@ object-fit: cover; /*défini comment l'objet rempli son parent*/
 #populaires
 {
     background-color: #F2F2F2;
-    border-radius: 5px;
+    border-radius: 12px;
     padding : 20px 20px 20px 20px;
+    width: 420px;
+    height: auto;
 }
+
+.populaires_head
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_populaires
+{
+    display: flex;
+}
+
 
 /* Navigation*/
 
