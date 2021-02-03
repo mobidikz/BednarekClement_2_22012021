@@ -375,6 +375,42 @@ header
     object-fit: cover;
 }
 
+/* Rechercher */
+
+.zone_recherche
+{
+    display: flex;
+    width: 35%;
+    padding: 10px 0 20px 0;
+}
+
+.logo_recherche
+{
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    
+}
+
+.recherche
+{
+    font-weight: bold;
+    padding-left: 2px;
+    border: 0px;
+    padding: 10px;
+}
+
+.bouton_recherche
+{
+    font-weight: bold;
+    background-color: #0065FC;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    
+}
+
 
 
 /* Navigation*/
