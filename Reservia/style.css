@@ -1,0 +1,541 @@
+* /* suppretion de la marge par défault de tout les éléments*/
+{
+    margin : 0; 
+    padding : 0; 
+
+    box-sizing: border-box;
+}
+
+/*Polices de la page*/
+
+h1
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+h3
+{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Eléments principaux de la page*/
+
+body
+{
+    background-color: white;
+    color:black;
+    font-family: Raleway;
+}
+
+
+#bloc_page
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+
+
+
+ul
+{
+    list-style-type: none;
+}
+
+
+
+#logo
+{
+    width: 100px;
+	height: auto;
+}
+
+header
+{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Articles*/
+
+.main_section
+{
+    display: flex; 
+   
+}
+
+.hébergements_wrapper
+{
+    width: 70%;
+    padding-right: 20px;
+}
+
+#hébergements
+{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding : 20px 20px;
+    
+
+}
+
+
+
+.cards_hébergement
+{
+    /* margin: 0 auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(246px, 1fr));
+    gap: 20px;
+    font-family: "Raleway"; */
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.card_hébergement_wrapper
+{
+    padding: 10px;
+    width: 33.333%;
+}
+.card_hébergement
+{
+    width: 100%;
+
+    background: white;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+
+    
+
+}
+
+.card_hébergement a
+{
+    display: block;
+    
+}
+
+.card_hébergement__image
+{
+
+    border-top: 7px white solid;
+    border-left: 7px white solid;
+    border-right: 7px white solid;
+
+    
+    width: 100%;
+    height: 122px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    border-radius: 25px 25px 0 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /*le width: 100% est juste sur la boite (sans les bordures...)*/
+
+}
+
+.card_hébergement__image img
+{
+
+    object-fit: cover; /*défini comment l'objet rempli son parent*/
+
+}
+
+
+
+
+.card__content
+{
+    font-size: 0.9em;
+    width: 100%;
+    height: auto;
+    
+    padding-left: 14px;
+    padding-top: 12px;
+    padding-bottom: 7px ;
+}
+
+.card__content h3
+{
+    font-size: 1.2em;
+    margin-bottom: 7px;
+}
+
+
+
+.card__info
+{
+    display: flex;
+    padding-left: 14px;
+    padding-bottom: 7px;
+
+}
+
+.starblue
+{
+    color: #0065FC;
+    font-size: 0.8em;
+}
+.stargrey
+{
+    color:#F2F2F2;
+    font-size: 0.8em;
+}
+
+
+#Afficher_plus
+{
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+#populaires
+{
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.populaires_wrapper
+{
+    width: 30%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.card_populaires_wrapper
+{
+    margin-bottom: 20px;
+}
+
+.populaires_head
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_populaires
+{
+    background: white;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.card_populaires a
+{
+    display: flex;
+}
+
+
+.card_populaires__image
+{
+    border-top: 7px white solid;
+    border-left: 7px white solid;
+    border-bottom: 7px white solid;
+
+    
+    width: 128px;
+    height: 150px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    border-radius: 25px 0 0 25px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /*le width: 100% est juste sur la boite (sans les bordures...)*/
+}
+
+.card_populaires__image img
+{
+    object-fit: cover; /*défini comment l'objet rempli son parent*/
+    width: 125px;
+    height: 135px;
+}
+
+
+#activités
+{
+   padding-top: 40px;
+}
+
+.cards_activités
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+    height: 446px;
+
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.card_activités_wrapper
+{
+    width: 25%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.card_activités
+{
+
+    width: 100%;
+    height: 100%;
+
+    background: white;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.card_activités_small
+{
+    width: 100%;
+    height: 100%;
+
+    background: white;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.card_activités_small__image
+{
+    overflow: hidden;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+
+    align-items: center;
+    justify-items: center;
+
+}
+
+.card_activités_small__image img
+{
+    width: 300px;
+    height: 168px;
+    object-fit: cover;
+}
+
+.card_activités__image
+{
+    
+    overflow: hidden;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+
+    align-items: center;
+    justify-items: center;
+
+}
+
+.card_activités__image img
+{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Rechercher */
+
+.zone_recherche
+{
+    display: flex;
+    width: 35%;
+    padding: 10px 0 20px 0;
+}
+
+.logo_recherche
+{
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    
+}
+
+.recherche
+{
+    font-weight: bold;
+    padding-left: 2px;
+    border: 0px;
+    padding: 10px;
+    outline-style:none
+}
+
+.bouton_recherche
+{
+    font-weight: bold;
+    background-color: #0065FC;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    outline-style:none
+    
+}
+
+/*Filtre*/
+
+.zone_filtre
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    padding: 0 0 20px 0;
+}
+.etiquette
+{
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 20px;
+    border: 2px #F2F2F2 solid;
+    height: 40px;
+
+    outline-style:none
+    
+    
+}
+.cercle
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #DEEBFF;
+    border: 2px  #DEEBFF solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cercle_icone
+{
+    font-size: 17px;
+    color: #0065FC;
+}
+
+.type_etiquette
+{
+    padding: 10px 20px 10px 10px;
+    font-weight: bold ;
+}
+
+
+
+/* Navigation*/
+
+#menu 
+{
+    display: flex;
+}
+
+#menu li a
+{
+    padding-top : 50px;
+    padding-bottom: 50px;
+    padding-left: 18px;
+    padding-right: 18px;
+    display : block;
+    border-top: 2px transparent solid;
+    
+}
+
+#menu li a:hover 
+{
+    border-top: 2px #0065FC solid;
+    color: #0065FC;
+}
+
+#inscription
+{
+    font-weight: bold;
+    color: #0065FC;
+    padding-right: 0px;
+}
+
+
+/* Footer*/
+
+.size_footer
+{
+    width: 1200px;
+    margin-top: 30px;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer li
+{
+    padding-top: 10px;
+}
+
+footer h3
+{
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+
+
+#A_propos
+{
+    margin-left: 3%;
+    width: 33%;
+}
+
+#Nos_hébergements
+{
+    width: 33%;
+}
+
+#Assistance
+{
+    width: 33%;
+}
