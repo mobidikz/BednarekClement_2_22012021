@@ -39,7 +39,6 @@ body
     background-color: white;
     color:black;
     font-family: Raleway;
-    font-size: 0.8em;
 }
 
 
@@ -398,6 +397,7 @@ header
     padding-left: 2px;
     border: 0px;
     padding: 10px;
+    outline-style:none
 }
 
 .bouton_recherche
@@ -408,7 +408,57 @@ header
     color: white;
     border: 0px;
     padding: 10px;
+    outline-style:none
     
+}
+
+/*Filtre*/
+
+.zone_filtre
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    padding: 0 0 20px 0;
+}
+.etiquette
+{
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 20px;
+    border: 2px #F2F2F2 solid;
+    height: 40px;
+
+    outline-style:none
+    
+    
+}
+.cercle
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #DEEBFF;
+    border: 2px  #DEEBFF solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cercle_icone
+{
+    font-size: 17px;
+    color: #0065FC;
+}
+
+.type_etiquette
+{
+    padding: 10px 20px 10px 10px;
+    font-weight: bold ;
 }
 
 
