@@ -68,8 +68,13 @@ ul
 header
 {   
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+}
+
+.wapper_logo
+{
+    margin-right: auto;
 }
 
 /*Bandeau infos*/
@@ -522,6 +527,14 @@ header
     font-weight: bold;
     color: #0065FC;
     padding-right: 0px;
+    padding-left: 18px;
+}
+
+.menu_et_inscription
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 
@@ -590,6 +603,7 @@ footer h3
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
 
     .zone_filtre
     {
