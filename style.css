@@ -107,6 +107,7 @@ header
 .main_section
 {
     display: flex; 
+    height: 600px;
    
 }
 
@@ -177,9 +178,6 @@ header
     border-left: 7px white solid;
     border-right: 7px white solid;
 
-    
-    width: 100%;
-    height: 122px;
     overflow: hidden;
 
     display: flex;
@@ -196,6 +194,8 @@ header
 {
 
     object-fit: cover; /*défini comment l'objet rempli son parent*/
+    max-width: 100%;
+    display: block;
 
 }
 
@@ -252,7 +252,7 @@ header
     background-color: #F2F2F2;
     border-radius: 25px;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
@@ -298,8 +298,7 @@ header
     border-bottom: 7px white solid;
 
     
-    width: 128px;
-    height: 150px;
+    max-width: 40%;
     overflow: hidden;
 
     display: flex;
@@ -313,9 +312,9 @@ header
 
 .card_populaires__image img
 {
+    width: 100%;
+    height: auto;
     object-fit: cover; /*défini comment l'objet rempli son parent*/
-    width: 125px;
-    height: 135px;
 }
 
 
@@ -380,8 +379,7 @@ header
 
 .card_activités_small__image img
 {
-    width: 300px;
-    height: 168px;
+ 
     object-fit: cover;
 }
 
@@ -399,8 +397,6 @@ header
 
 .card_activités__image img
 {
-    width: 300px;
-    height: 400px;
     object-fit: cover;
 }
 
@@ -572,4 +568,56 @@ footer h3
 #Assistance
 {
     width: 33%;
+}
+
+@media all and  (max-width: 1200px)
+{
+    body 
+    {
+        
+    }
+
+    #bloc_page
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1150px;
+    }
+
+    #menu
+    {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .zone_filtre
+    {
+        flex-wrap: wrap;
+    }
+
+    .main_section
+    {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+
+    .hébergements_wrapper
+    {
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    .card_hébergement_wrapper
+    {
+        padding: 10px;
+        width: 33,33%;
+    }
+
+    .card_hébergement__image
+    {
+        
+    }
 }
