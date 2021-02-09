@@ -650,7 +650,373 @@ footer h3
 /* Tablettes */
 @media (max-width: 768px)
 {
+    body
+    {
+        max-width: 768px;
+    }
+
+    #bloc_page
+    {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+/* header */
+    header
+    {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+        padding-top: 20px;
+    }
+
+    .wrapper_logo
+    {
+        order: 1;
+        margin: 0;
+
+        padding-left: 20px;
+    }
+
+    .inscription
+    {
+        order: 2;
+
+        padding-right: 20px;
+    }
+
+
+    .zone_filtre
+    {
+        flex-wrap: wrap;
+    }
+
+    .wrapper_menu
+    {
+        order: 3;
+        width: 100%;
+    }
+
+
+    /* Navigation*/
+
+
+    #menu li
+    {
+        width: 50%;
+    }
+
+    #menu li a
+    {
+        padding-top : 30px;
+        padding-bottom: 30px;
+        padding-left: 18px;
+        padding-right: 18px;
+        display : block;
+        border-top: 2px transparent solid;
+
+        display: flex;
+        justify-content: center;   
+    }
+
+    #menu li a:hover 
+    {
+        border-top: 0;
+        border-bottom: 2px #0065FC solid;
+        color: #0065FC;
+    }
+
+    #inscription
+    {
+        font-weight: bold;
+        color: #0065FC;
+        padding-right: 0px;
+        padding-left: 18px;
+    }
+
+    .menu_et_inscription
+    {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .texte_intro
+    {
+        padding: 20px;
+    }
+
+    /* Rechercher */
+
+    .wrapper_recherche
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Bandeau infos*/
+
+    .bandeau_infos
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    /* Zonefilre */
+    .zone_filtre
+    {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .zone_filtre h3
+    {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .etiquette
+    {
+        width: auto;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+/* cards */
+
+    .all_cards_zone
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .main_section
+    {
+        width: 100%;
+        height: auto;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
     
+    }
+
+
+    
+    #hébergements
+    {
+        background-color: white;
+    }
+
+    .hébergements_wrapper
+    {
+        width: 100%;
+        padding-bottom: 20px;
+        order: 2;
+        padding-right: 0;
+    }
+    
+    .card_hébergement_wrapper
+    {
+        padding: 10px;
+        width: 50%;
+
+        max-width: 100%;
+        min-width: 250px;
+    }
+
+    .card_hébergement_wrapper card__content
+
+
+    .card_hébergement__image img
+    {
+        width: 100%;
+        height: 200px;
+    }
+
+    #populaires
+    {
+        border-radius: 0;
+    }
+
+    .populaires_wrapper
+    {
+        width: 100%;
+        height: 100%;
+        order: 1;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .card_populaires_wrapper
+    {
+        margin-bottom: 20px;
+    }
+
+    .populaires_head
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card_populaires
+    {
+        background: white;
+        border-radius: 25px 25px 25px 25px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+        margin-bottom: 25px;
+    }
+
+
+    .card_populaires__image
+    {
+        border-top: 7px white solid;
+        border-left: 7px white solid;
+        border-bottom: 7px white solid;
+
+        
+        max-width: 40%;
+        overflow: hidden;
+
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+        border-radius: 25px 0 0 25px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box; /*le width: 100% est juste sur la boite (sans les bordures...)*/
+    }
+
+    .card_populaires__image img
+    {
+        width: 100%;
+        height: auto;
+        object-fit: cover; /*défini comment l'objet rempli son parent*/
+    }
+
+
+    .textedroit_media
+    {
+        padding: 10px;
+    }
+
+    #activités
+    {
+    padding: 20px;
+    width: 100%;
+    }
+
+
+    .cards_activités
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .card_activités_wrapper
+    {
+        width: 50%;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card_activités
+        {   
+        width: 100%;
+        height: 200px;
+    
+
+        background: white;
+        border-radius: 25px 25px 25px 25px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+        }
+
+    .card_activités_small
+    {
+        width: 100%;
+
+        background: white;
+        border-radius: 25px 25px 25px 25px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .card_activités_small__image
+    {
+        overflow: hidden;
+        width: 100%;
+        border-radius: 25px 25px 0 0;
+
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .card_activités_small__image img
+    {
+    
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+    }
+
+    .card_activités__image
+    {
+        
+        overflow: hidden;
+        width: 100%;
+        border-radius: 25px 25px 0 0;
+
+        align-items: center;
+        justify-items: center;
+
+    }
+    .card_activités__image img
+    {
+    
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
+    }
+
+/* Footer */
+    .size_footer
+    {
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #A_propos
+    {
+        width: 33.333%;
+        padding: 20px;
+        margin-left: 0;
+    }
+
+    #Nos_hébergements
+    {
+        width: 33.333%;
+        padding: 20px;
+    }
+
+    #Assistance
+    {
+        width: 33.333%;
+        padding: 20px;
+    }
 }
 
 /* Smartphone */
