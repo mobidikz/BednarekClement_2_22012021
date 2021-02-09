@@ -37,7 +37,7 @@
             <!-- </div> -->
         </header>
 
-        <div>
+        <div class="texte_intro">
             <h1>
                 Trouvez votre hébergement pour des vacances de rêve
             </h1>
@@ -47,17 +47,72 @@
             </p>
         </div>
 
-        <div class="zone_recherche">
-            <div class="logo_recherche">
-                <i class="fas fa-map-marker-alt"></i>
+<!-- zone recherche -->
+        <div class="wrapper_recherche">
+            <div class="zone_recherche">
+                <div class="logo_recherche">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+
+                <input class="recherche" type="search" name="recherche" id="recherche" value="Marseille, France" />
+
+                <button class="bouton_recherche" type="button">
+                    Rechercher
+                </button>
             </div>
-
-            <input class="recherche" type="search" name="recherche" id="recherche" value="Marseille, France" />
-
-            <button class="bouton_recherche" type="button">
-                Rechercher
-            </button>
         </div>
+
+                <!-- Zone filtre -->
+                <div class="zone_filtre">
+                    <h3>
+                        Filtres
+                    </h3>
+        
+                    <button class="etiquette" type="button">
+                        <div class="cercle">
+                            <div class="cercle_icone">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </div>
+                        </div>
+                        <div class="type_etiquette">
+                            Économique
+                        </div>
+                    </button>
+        
+                    <button class="etiquette" type="button">
+                        <div class="cercle">
+                            <div class="cercle_icone">
+                                <i class="fas fa-child"></i>
+                            </div>
+                        </div>
+                        <div class="type_etiquette">
+                            Familial
+                        </div>
+                    </button>
+        
+                    <button class="etiquette" type="button">
+                        <div class="cercle">
+                            <div class="cercle_icone">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="type_etiquette">
+                            Romantique
+                        </div>
+                    </button>
+        
+                    <button class="etiquette" type="button">
+                        <div class="cercle">
+                            <div class="cercle_icone">
+                                <i class="fas fa-dog"></i>
+                            </div>
+                        </div>
+                        <div class="type_etiquette">
+                            Animaux autorisés
+                        </div>
+                    </button>
+        
+                </div>
 
         <!-- Bandeau infos -->
         <div class="bandeau_infos">
@@ -68,58 +123,6 @@
             <p>
                 Plus de 500 logements sont disponibles dans cette ville
             </p>
-
-        </div>
-
-        <!-- Zone filtre -->
-        <div class="zone_filtre">
-            <h3>
-                Filtres
-            </h3>
-
-            <button class="etiquette" type="button">
-                <div class="cercle">
-                    <div class="cercle_icone">
-                        <i class="fas fa-money-bill-wave"></i>
-                    </div>
-                </div>
-                <div class="type_etiquette">
-                    Économique
-                </div>
-            </button>
-
-            <button class="etiquette" type="button">
-                <div class="cercle">
-                    <div class="cercle_icone">
-                        <i class="fas fa-child"></i>
-                    </div>
-                </div>
-                <div class="type_etiquette">
-                    Familial
-                </div>
-            </button>
-
-            <button class="etiquette" type="button">
-                <div class="cercle">
-                    <div class="cercle_icone">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                </div>
-                <div class="type_etiquette">
-                    Romantique
-                </div>
-            </button>
-
-            <button class="etiquette" type="button">
-                <div class="cercle">
-                    <div class="cercle_icone">
-                        <i class="fas fa-dog"></i>
-                    </div>
-                </div>
-                <div class="type_etiquette">
-                    Animaux autorisés
-                </div>
-            </button>
 
         </div>
 
@@ -319,8 +322,8 @@
                             </div>
                         </div>
 
-                        <p id="Aff
-                                <a href=" #">Afficher plus </a>
+                        <p id="Afficher_plus">
+                                <a href="Afficher plus">Afficher plus</a>
                         </p>
                     </article>
                 </div>
@@ -345,7 +348,7 @@
                                             <img
                                                 src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                                         </div>
-                                        <div class="textedroit">
+                                        <div class="textedroit textedroit_media">
                                             <div class="card__content">
                                                 <h3>
                                                     Hôtel le soleil du matin
@@ -375,7 +378,7 @@
                                         <div class="card_populaires__image">
                                             <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
                                         </div>
-                                        <div class="textedroit">
+                                        <div class="textedroit textedroit_media">
                                             <div class="card__content">
                                                 <h3>
                                                     Au coeur le l'eau Chambres d'hôtes
@@ -408,7 +411,7 @@
                                             <img
                                                 src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
                                         </div>
-                                        <div class="textedroit">
+                                        <div class="textedroit textedroit_media">
                                             <div class="card__content">
                                                 <h3>
                                                     Hôtel Tout bleu et Blanc
