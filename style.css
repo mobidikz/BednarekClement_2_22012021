@@ -462,7 +462,7 @@ header
 .etiquette:hover
 {
     background-color: #DEEBFF;
-    border: #DEEBFF;
+    border-color: #DEEBFF;
 
 }
 
@@ -581,8 +581,8 @@ footer h3
 
 
 /* Tablettes */
-@media (max-width: 768px)
-{
+    @media (max-width: 768px)
+    {
     body
     {
         max-width: 768px;
@@ -633,7 +633,7 @@ footer h3
     }
 
 
-    /* Navigation*/
+/* Navigation*/
 
 
     #menu li
@@ -692,7 +692,7 @@ footer h3
         justify-content: center;
     }
 
-    /*Bandeau infos*/
+/*Bandeau infos*/
 
     .bandeau-infos
     {
@@ -701,7 +701,7 @@ footer h3
     }
 
 
-    /* Zonefilre */
+/* Zonefilre */
     .zone-filtre
     {
         justify-content: flex-start;
