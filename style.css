@@ -138,13 +138,6 @@ header
 
 .cards-hébergement
 {
-    /* margin: 0 auto;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(246px, 1fr));
-    gap: 20px;
-    font-family: "Raleway"; */
-
     width: auto;
     height: auto;
     display: flex;
@@ -152,7 +145,6 @@ header
 
     margin-left: -10px;
     margin-right: -10px;
-
 }
 
 .card-hébergement-wrapper
@@ -171,21 +163,16 @@ header
     background: white;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-
-    
-
 }
 
 .card-hébergement a
 {
     display: block;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .card-hébergement__image
 {
-
     border-top: 4px white solid;
     border-left: 4px white solid;
     border-right: 4px white solid;
@@ -198,7 +185,6 @@ header
     height: 130px;
     background-size: cover;
     background-position: 50%;
-
 }
 
 .card__content
@@ -217,8 +203,6 @@ header
     font-size: 1.1em;
     margin-bottom: 7px;
 }
-
-
 
 .card__info
 {
@@ -345,14 +329,10 @@ header
 
 .card-activités
 {
-
     width: 100%;
-    
-
     background: white;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-
 }
 
 .card-activités a, .card-activités-small a
@@ -408,8 +388,7 @@ header
     border-radius: 10px 0 0 10px;
     padding: 10px;
 
-    border : 2px #F2F2F2 solid;
-    
+    border : 2px #F2F2F2 solid; 
 }
 
 .recherche
@@ -431,8 +410,12 @@ header
     color: white;
     border: 0px;
     padding: 10px;
-    outline-style:none
-    
+    outline-style:none 
+}
+
+.icon-search
+{
+    font-size: 0;
 }
 
 /*Filtre*/
@@ -1034,6 +1017,23 @@ footer h3
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .bouton-recherche
+    {
+    margin-left: -10px;
+    padding: 10px 12px;
+    }
+
+    .icon-search
+    {
+    font-size: 1.2em;
+    font-weight: 900;
+    }
+
+    .text-search
+    {
+        font-size: 0;
     }
 
     /*Bandeau infos*/
