@@ -78,17 +78,6 @@ header
     margin-right: auto;
 }
 
-.texte-intro
-{
-    padding: 10px;
-}
-
-.texte-intro p
-{
-    padding-top: 10px;
-}
-
-
 /*Bandeau infos*/
 
 .bandeau-infos
@@ -132,6 +121,7 @@ header
 {
     width: 65%;
     padding-right: 20px;
+    margin-bottom: -30px;
 }
 
 #hébergements
@@ -192,14 +182,6 @@ header
     width: 100%;
     
 }
-
-/* .card-hébergement a:hover
-{
-    margin: -2px;
-    border : 2px #0065FC solid; 
-    border-radius: 25px;
-} */
-
 
 .card-hébergement__image
 {
@@ -278,7 +260,7 @@ header
 .populaires-wrapper
 {
     width: 35%;
-    height: 100%;
+    margin-bottom: -30px;
     padding-left: 20px;
 }
 
@@ -337,7 +319,7 @@ header
 
 #activités
 {
-   padding-top: 40px;
+   padding-top: 70px;
 }
 
 .cards-activités
@@ -365,7 +347,7 @@ header
 {
 
     width: 100%;
-    height: 100%;
+    
 
     background: white;
     border-radius: 25px 25px 25px 25px;
@@ -471,6 +453,7 @@ header
     background-color: white;
     border-radius: 20px;
     border: 2px #F2F2F2 solid;
+    border-left: 0px;
     height: 40px;
 
     outline-style:none
@@ -479,13 +462,14 @@ header
 .etiquette:hover
 {
     background-color: #DEEBFF;
+    border: #DEEBFF;
 
 }
 
 .cercle
 {
-    width: 37px;
-    height: 37px;
+    width: 38px;
+    height: 38px;
     border-radius: 20px;
     background: #DEEBFF;
     border: 2px  #DEEBFF solid;
@@ -675,6 +659,8 @@ footer h3
         border-top: 0;
         border-bottom: 2px #0065FC solid;
         color: #0065FC;
+        border-top: 2px white solid;
+        height: 79px;
     }
 
     #inscription
@@ -800,6 +786,7 @@ footer h3
         order: 1;
         padding: 0;
         padding-bottom: 20px;
+        margin-bottom: 0;
     }
 
     .card-populaires-wrapper
@@ -883,7 +870,6 @@ footer h3
     .card-activités
         {   
         width: 100%;
-        height: 200px;
     
 
         background: white;
@@ -1021,13 +1007,6 @@ footer h3
         justify-content: center;   
     }
 
-    #menu li a:hover 
-    {
-        border-top: 0;
-        border-bottom: 2px #0065FC solid;
-        color: #0065FC;
-    }
-
     #inscription
     {
         font-weight: bold;
@@ -1151,6 +1130,7 @@ footer h3
         order: 1;
         padding: 0;
         padding-bottom: 20px;
+        margin-bottom: 0;
     }
 
     .card-populaires-wrapper
@@ -1207,7 +1187,7 @@ footer h3
 
     #activités
     {
-    padding: 20px;
+    padding: 40px 20px 20px 20px;
     width: 100%;
     }
 
@@ -1233,7 +1213,6 @@ footer h3
     .card-activités
         {   
         width: 100%;
-        height: 200px;
     
 
         background: white;
@@ -1249,6 +1228,11 @@ footer h3
         border-radius: 25px 25px 25px 25px;
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
     }
+
+    #Afficher-plus
+{
+    padding-top: 20px;
+}
 
 /* Footer */
     .size-footer
