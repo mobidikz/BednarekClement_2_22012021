@@ -634,6 +634,7 @@ header
         padding-right: 18px;
         display : block;
         border-top: 2px transparent solid;
+        border-bottom: 2px #F2F2F2 solid;
 
         display: flex;
         justify-content: center;   
@@ -645,7 +646,6 @@ header
         border-bottom: 2px #0065FC solid;
         color: #0065FC;
         border-top: 2px white solid;
-        height: 79px;
     }
 
     #inscription
