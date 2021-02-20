@@ -48,6 +48,7 @@ body
     margin-right: auto;
     width: 100%;
     min-width: 1200px;
+    max-width: 1440px;
     padding: 0 20px 20px 20px;
 }
 
@@ -676,6 +677,7 @@ header
         display: flex;
         justify-content: center;
     }
+
 
 /*Bandeau infos*/
 
